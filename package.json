@@ -1,0 +1,14 @@
+{
+  "name": "test10212",
+  "version": "1.0.0",
+  "description": "A small greet() example for practicing pull requests",
+  "main": "greet.js",
+  "scripts": {
+    "start": "node greet.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

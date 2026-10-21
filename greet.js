@@ -8,8 +8,8 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 
-// 测试一下
-console.log(greet("GitHub"));
-console.log(greet(""));
+if (require.main === module) {
+  console.log(greet(process.argv[2]));
+}
 
 module.exports = greet;
