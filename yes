@@ -1,0 +1,15 @@
+// greet.js
+// 这是一个用于 PR 练习的示例文件
+
+function greet(name) {
+  if (!name) {
+    return "Hello, stranger!";
+  }
+  return `Hello, ${name}!`;
+}
+
+// 测试一下
+console.log(greet("GitHub"));
+console.log(greet(""));
+
+module.exports = greet;
